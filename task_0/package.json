@@ -1,0 +1,25 @@
+{
+  "name": "task_0",
+  "version": "1.0.0",
+  "description": "TypeScript task for rendering a student table",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint js/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.1",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
